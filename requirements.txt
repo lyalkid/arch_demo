@@ -1,0 +1,15 @@
+# requirements.txt
+fastapi==0.103.2
+uvicorn==0.23.2
+streamlit==1.29.0
+torch
+torchvision
+rembg  # Для удаления фона (U²-Net внутри)
+opencv-python
+onnxruntime==1.17.1  # Добавлено!
+python-multipart
+tensorflow 
+pillow
+tensorflow_hub 
+numpy
+requests
