@@ -24,4 +24,6 @@ in second terminal
 ```
 streamlit run frontend.py 
 ```
+
+### Demo
 ![Watch the video](demo.gif)
