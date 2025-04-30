@@ -11,6 +11,7 @@ python3 -m venv venv
 ```
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
+pip uninstall -y -r requirements.txt  # Если были предыдущие установки
 pip install -r requirements.txt  
 ```
 

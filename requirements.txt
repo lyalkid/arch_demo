@@ -1,15 +1,48 @@
+# # requirements.txt
+# fastapi==0.103.2
+# uvicorn==0.23.2
+# streamlit==1.29.0
+# torch
+# torchvision
+# rembg  # Для удаления фона (U²-Net внутри)
+# opencv-python
+# onnxruntime==1.17.1  # Добавлено!
+# python-multipart
+# tensorflow 
+# pillow
+# tensorflow_hub 
+# numpy
+# requests
+
+
 # requirements.txt
-fastapi==0.103.2
-uvicorn==0.23.2
-streamlit==1.29.0
+
+# Основные зависимости
+fastapi
+uvicorn
+streamlit
+
+# Обработка изображений
+opencv-python
+rembg
+Pillow
+numpy<2
+
+# Машинное обучение (CPU версия)
 torch
 torchvision
-rembg  # Для удаления фона (U²-Net внутри)
-opencv-python
-onnxruntime==1.17.1  # Добавлено!
-python-multipart
-tensorflow 
-pillow
-tensorflow_hub 
-numpy
+tensorflow
+tensorflow-hub
+
+# Генерация изображений
+diffusers
+transformers
+accelerate
+
+# Дополнительные
 requests
+
+# Для GPU (раскомментировать при наличии NVIDIA GPU):
+# torch
+#  torchvision
+#  --extra-index-url https://download.pytorch.org/whl/cu121
