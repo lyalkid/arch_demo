@@ -1,8 +1,16 @@
 # arch_demo
-
+1) make virtual environment
 ```
 python -m venv venv
-source venv/bin/activate  
+```
+or
+```
+python3 -m venv venv
+```
+2) then
+```
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
 pip install -r requirements.txt  
 ```
 
