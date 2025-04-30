@@ -24,4 +24,4 @@ in second terminal
 ```
 streamlit run frontend.py 
 ```
-[![Watch the video](demo.gif)]
+![Watch the video](demo.gif)
