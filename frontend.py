@@ -6,7 +6,7 @@ st.title("🎨 AI Photo Editor MVP")
 
 def display_result(response):
     if "result_url" in response:
-        st.image(response["result_url"], caption="Результат", use_container_width=True)  # Исправлено здесь
+        st.image(response["result_url"], caption="Результат", use_column_width=True)  # Исправлено здесь
     elif "error" in response:
         st.error(f"Ошибка: {response['error']}")
 
@@ -17,7 +17,7 @@ if uploaded_file:
     
     with col1:
         st.header("Оригинал")
-        st.image(uploaded_file, use_container_width=True)  # Исправлено здесь
+        st.image(uploaded_file, use_column_width=True)  # Исправлено здесь
     
     with col2:
         st.header("Действия")
